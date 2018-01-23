@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Miguel Landaeta"]
   spec.email         = ["miguel@miguel.cc"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Noise protocol framework Ruby implementation"
+  spec.description   = "Crypto protocols based on Diffie-Hellman key agreement"
+  spec.homepage      = "https://github.com/nomadium/ruido"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
