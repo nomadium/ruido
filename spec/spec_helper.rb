@@ -1,5 +1,10 @@
+# frozen_string_literal: true
+
 require "bundler/setup"
 require "ruido"
+require "base64"
+require "rbnacl"
+require "securerandom"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

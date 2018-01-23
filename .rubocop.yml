@@ -1,0 +1,15 @@
+require: rubocop-rspec
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Metrics/BlockLength:
+  Exclude:
+    - 'ruido.gemspec'
+    - 'spec/ruido/**'
+
+AllCops:
+  Exclude:
+    - 'lib/ruido/connection.rb'
+    - 'lib/ruido/protocol.rb'
+    - 'spec/ruido/protocol_spec.rb'
